@@ -1,0 +1,14 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>me.r09i.gitflow</id>
+    <name>Gitflow</name>
+    <vendor url="https://github.com/takechee">takechee</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <applicationListeners>
+    </applicationListeners>
+</idea-plugin>
