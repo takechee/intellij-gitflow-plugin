@@ -1,6 +1,6 @@
 plugins {
-    id("org.jetbrains.kotlin.jvm") version "1.6.10"
-    id("org.jetbrains.intellij") version "1.3.0"
+    id("org.jetbrains.kotlin.jvm")
+    id("org.jetbrains.intellij")
 }
 
 fun properties(key: String) = project.findProperty(key).toString()

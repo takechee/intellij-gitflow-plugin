@@ -1,6 +1,16 @@
+import com.github.takechee.gitflow4intellij.Deps
+
 buildscript {
     repositories {
         mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+
+    dependencies {
+        classpath Deps.Kotlin.plugin
+        classpath Deps.IntelliJ.plugin
     }
 }
 
